@@ -1,0 +1,80 @@
+<style>
+  .container {
+    display: grid;
+    grid-template-rows: 1fr 3fr 1fr;
+  }
+  .header {
+    background-color: #02998e;
+    color: white;
+    display: grid;
+    padding: 2px;
+    margin: 20px;
+    padding: 15px;
+  }
+
+  .middle {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 20px;
+    padding: 15px;
+  }
+  .aside {
+    display: grid;
+    grid-template-rows: 1fr;
+    background-color: #58ae57;
+    color: wheat;
+    margin: 20px;
+    padding: 15px;
+  }
+
+  .Article {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: #c98d3e;
+    color: wheat;
+    margin: 20px;
+    padding: 15px;
+  }
+
+  .twin {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: orange;
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    padding: 15px;
+  }
+
+  .footer {
+    display: grid;
+    grid-template-rows: 1fr;
+    background-color:#02998E;
+    color: white;
+    margin: 20px;
+    padding: 15px;
+  
+  }
+</style>
+
+<div class="container">
+  <div class="header">
+    <h3>Header</h3>
+  </div>
+
+  <div class="middle">
+    <div class="aside"><h3>Aside</h3></div>
+    <div class="Article">
+      <h3>Article</h3>
+
+      <div class="twin">Image</div>
+      <div class="twin">Image</div>
+      <div class="twin">Image</div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <h3>Footer</h3>
+  </div>
+</div>
